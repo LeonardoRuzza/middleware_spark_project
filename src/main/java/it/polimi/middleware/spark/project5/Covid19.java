@@ -116,7 +116,6 @@ public class Covid19 {
                 " FROM q1_sql as x, q1_sql as y" +
                 " WHERE y.dateRep =" + date_sub(col("x.dateRep"), 1) +
                 " and x.countriesAndTerritories = y.countriesAndTerritories" +
-                //" GROUP BY x.dateRep, x.day, x.month, x.year, x.cases, x.deaths,x.countriesAndTerritories, x.geoId, x.countryTerritoryCode, x.popData2019, x.continentExp, x.Cumulative_number_for_14_days_of_COVID_19_cases_per_100000, x.last_7_days_avg, y.last_7_days_avg " +
                 " ORDER BY x.dateRep desc, x.countriesAndTerritories");
 
         //To run this version, please comment the previous 2 instructions.
