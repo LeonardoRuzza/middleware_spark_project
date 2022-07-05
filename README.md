@@ -1,3 +1,3 @@
-# Apache Spark tutorial
+# Apache Spark Project for the course Middleware Technologies For Distributed Systems
 
-Apache Spark tutorial for the Middleware Technologies for Distributed Systems course in Politecnico di Milano
+The goal of the project is to analyze data of the Covid-19 pandemic.
